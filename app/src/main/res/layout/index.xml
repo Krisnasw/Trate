@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:id="@id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <ImageView
+        android:id="@+id/buttonKiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/prev"
+        android:layout_alignTop="@+id/buttonKanan"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="150dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:scrollbars="horizontal"
+            android:layout_width="265dp"
+            android:layout_height="160dp"
+            android:layout_weight="0.19"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/buttonKanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_weight="0.2"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

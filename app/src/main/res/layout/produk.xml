@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/food"
+            android:src="@drawable/food"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content" />
+        
+        <ImageView
+            android:id="@+id/baju"
+            android:src="@drawable/fuku"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/event"
+            android:src="@drawable/event"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <ImageView
+        android:src="@drawable/wq"
+        android:layout_width="200dp"
+        android:background="@null"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        style="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="BestOne adalah Program Teknoprener milik SMA BPI 1 Bandung, BestOne adalah Singkatan dari BPI One Enterpreneur Store yang digagas oleh seorang guru bersama murid - murid terpilih. Kepengurusan BestOne berisikan murid-murid SMA BPI 1 Bandung sendiri yang telah di latih sesuai dengan posisi nya. BestOne mempunyai produk tersendiri yang mereka produksi sendiri dan ada pula yang bersifat konsiliasi atau kerja sama yang tentu nya ada syarat dan ketentuan yang harus di patuhi saat akan mengikuti program konsiliasi BestOne."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
